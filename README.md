@@ -1,4 +1,7 @@
 # VINS-Fusion
+## 修改内容
+1. 将camera_models、loop_fusion、vins_estimator文件夹下的CMakeLists.txt，关于Opnecv版本地方，统一替换成find_package(OpenCV 4 REQUIRED)
+2. 将所有Opencv3的写法，改成Opencv4
 ## An optimization-based multi-sensor state estimator
 
 <img src="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/blob/master/support_files/image/vins_logo.png" width = 55% height = 55% div align=left />
